@@ -71,18 +71,5 @@
             "v1.7": "MoviePilot V2 版本自动转移做种插件",
             "v1.7.1": "修复兼容性问题"
         }
-    },
-    "CopyMonitor": {
-        "name": "实时复制",
-        "description": "监控目录文件变化，实时复制。",
-        "labels": "文件整理",
-        "version": "1.0",
-        "icon": "Linkace_C.png",
-        "author": "diabellstar",
-        "level": 1,
-        "v2": true,
-        "history": {
-            "v1.0": "初版"
-        }
     }
 }
