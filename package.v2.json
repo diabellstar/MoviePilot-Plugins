@@ -39,7 +39,7 @@
         }
     },
     "TorrentTransferOrigin": {
-        "name": "自动转移做种-QB",
+        "name": "转移做种-QB",
         "description": "定期转移下载器中的做种任务到另一个下载器。",
         "labels": "做种",
         "version": "1.10.1",
@@ -56,7 +56,7 @@
         }
     },
     "TorrentTransferBangumi": {
-        "name": "自动转移做种-Bangumi",
+        "name": "转移做种-Bangumi",
         "description": "定期转移下载器中的做种任务到另一个下载器。",
         "labels": "做种",
         "version": "1.10.1",

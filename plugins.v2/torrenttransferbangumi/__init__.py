@@ -22,7 +22,7 @@ from app.utils.string import StringUtils
 
 class TorrentTransferBangumi(_PluginBase):
     # 插件名称
-    plugin_name = "自动转移做种-Bangumi"
+    plugin_name = "转移做种-Bangumi"
     # 插件描述
     plugin_desc = "定期转移下载器中的做种任务到另一个下载器。"
     # 插件图标
@@ -179,7 +179,7 @@ class TorrentTransferBangumi(_PluginBase):
             return [
                 {
                     "id": "TorrentTransferBangumi",
-                    "name": "自动转移做种-Bangumi",
+                    "name": "转移做种-Bangumi",
                     "trigger": CronTrigger.from_crontab(self._cron),
                     "func": self.transfer,
                     "kwargs": {}
