@@ -858,7 +858,7 @@ class TorrentTransferOrigin(_PluginBase):
             if self._notify:
                 self.post_message(
                     mtype=NotificationType.SiteMessage,
-                    title="【转移做种任务执行完成】",
+                    title="【转移做种-Origin任务执行完成】",
                     text=f"总数：{total}，成功：{success}，失败：{fail}，跳过：{skip}，删除重复：{del_dup}"
                 )
         else:
