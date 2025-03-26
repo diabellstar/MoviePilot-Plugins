@@ -71,5 +71,32 @@
             "v1.7": "MoviePilot V2 版本自动转移做种插件",
             "v1.7.1": "修复兼容性问题"
         }
+    },
+    "DiabellstarFileCopy": {
+        "name": "文件复制S",
+        "description": "自定义文件类型从源目录复制到目的目录。",
+        "labels": "工具",
+        "version": "2",
+        "icon": "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/copy_files.png",
+        "author": "diabellstar",
+        "level": 1,
+        "v2": true,
+        "history": {
+            "v1.1": "增加log显示",
+            "v1.0": "自定义文件类型从源目录复制到目的目录"
+        }
+    },
+    "CopyMonitor": {
+        "name": "实时复制",
+        "description": "监控目录文件变化，实时复制。",
+        "labels": "文件整理",
+        "version": "1.0",
+        "icon": "Linkace_C.png",
+        "author": "diabellstar",
+        "level": 1,
+        "v2": true,
+        "history": {
+            "v1.0": "初版"
+        }
     }
 }
