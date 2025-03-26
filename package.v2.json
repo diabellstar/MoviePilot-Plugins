@@ -71,5 +71,33 @@
             "v1.7": "MoviePilot V2 版本自动转移做种插件",
             "v1.7.1": "修复兼容性问题"
         }
+    },
+    "TorrentRemoverBt": {
+        "name": "自动删种-BT",
+        "description": "自动删除下载器中的下载任务。",
+        "labels": "做种",
+        "version": "1.0",
+        "icon": "delete.jpg",
+        "author": "diabellstar",
+        "level": 2,
+        "history": {
+            "v2.2": "优化执行周期输入，需要MoviePilot v2.2.1+",
+            "v2.1.1": "修复兼容MoviePilot V2 版本",
+            "v2.0": "兼容MoviePilot V2 版本"
+        }
+    },
+    "TorrentRemoverBangumi": {
+        "name": "自动删种-Bangumi",
+        "description": "自动删除下载器中的下载任务。",
+        "labels": "做种",
+        "version": "1.0",
+        "icon": "delete.jpg",
+        "author": "diabellstar",
+        "level": 2,
+        "history": {
+            "v2.2": "优化执行周期输入，需要MoviePilot v2.2.1+",
+            "v2.1.1": "修复兼容MoviePilot V2 版本",
+            "v2.0": "兼容MoviePilot V2 版本"
+        }
     }
 }
