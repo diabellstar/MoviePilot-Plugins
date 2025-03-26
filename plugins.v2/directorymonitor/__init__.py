@@ -63,7 +63,7 @@ class DirectoryMonitor(_PluginBase):
     # 插件图标
     plugin_icon = "Linkease_A.png"
     # 插件版本
-    plugin_version = "1.0"
+    plugin_version = "2.5.8"
     # 插件作者
     plugin_author = "diabellstar"
     # 作者主页
@@ -221,25 +221,25 @@ class DirectoryMonitor(_PluginBase):
                         observer.schedule(FileMonitorHandler(mon_path, self), path=mon_path, recursive=True)
                         observer.daemon = True
                         observer.start()
-                        logger.info(f"{mon_path} 的云盘实时监控服务启动")
+                        logger.info(f"{mon_path} 的目录实时监控服务启动")
                     except Exception as e:
                         err_msg = str(e)
                         if "inotify" in err_msg and "reached" in err_msg:
                             logger.warn(
-                                f"云盘实时监控服务启动出现异常：{err_msg}，请在宿主机上（不是docker容器内）执行以下命令并重启："
+                                f"目录实时监控服务启动出现异常：{err_msg}，请在宿主机上（不是docker容器内）执行以下命令并重启："
                                 + """
                                      echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
                                      echo fs.inotify.max_user_instances=524288 | sudo tee -a /etc/sysctl.conf
                                      sudo sysctl -p
                                      """)
                         else:
-                            logger.error(f"{mon_path} 启动目云盘实时监控失败：{err_msg}")
-                        self.systemmessage.put(f"{mon_path} 启动云盘实时监控失败：{err_msg}")
+                            logger.error(f"{mon_path} 启动目录实时监控失败：{err_msg}")
+                        self.systemmessage.put(f"{mon_path} 启动目录实时监控失败：{err_msg}")
 
             # 运行一次定时服务
             if self._onlyonce:
-                logger.info("云盘实时监控服务启动，立即运行一次")
-                self._scheduler.add_job(name="云盘实时监控",
+                logger.info("目录实时监控服务启动，立即运行一次")
+                self._scheduler.add_job(name="目录实时监控",
                                         func=self.sync_all, trigger='date',
                                         run_date=datetime.datetime.now(
                                             tz=pytz.timezone(settings.TZ)) + datetime.timedelta(seconds=3)
