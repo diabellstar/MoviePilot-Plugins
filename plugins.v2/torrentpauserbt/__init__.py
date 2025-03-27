@@ -146,7 +146,7 @@ class TorrentPauserBt(_PluginBase):
         """
         if self.get_state():
             return [{
-                "id": "TorrentRemoverBT",
+                "id": "TorrentPauserBT",
                 "name": "自动停种-BT",
                 "trigger": CronTrigger.from_crontab(self._cron),
                 "func": self.delete_torrents,

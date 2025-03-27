@@ -146,7 +146,7 @@ class TorrentPauserBangumi(_PluginBase):
         """
         if self.get_state():
             return [{
-                "id": "TorrentRemoverBangumi",
+                "id": "TorrentPauserBangumi",
                 "name": "自动停种-Bangumi",
                 "trigger": CronTrigger.from_crontab(self._cron),
                 "func": self.delete_torrents,

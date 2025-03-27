@@ -146,7 +146,7 @@ class TorrentPauserOrigin(_PluginBase):
         """
         if self.get_state():
             return [{
-                "id": "TorrentRemoverOrigin",
+                "id": "TorrentPauserOrigin",
                 "name": "自动停种-QB",
                 "trigger": CronTrigger.from_crontab(self._cron),
                 "func": self.delete_torrents,
