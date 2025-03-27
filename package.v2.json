@@ -99,5 +99,48 @@
             "v2.1.1": "修复兼容MoviePilot V2 版本",
             "v2.0": "兼容MoviePilot V2 版本"
         }
+    },
+    "TorrentPauserOrigin": {
+        "name": "自动停种-QB",
+        "description": "自动停止下载器中的下载任务。",
+        "labels": "做种",
+        "version": "1.0",
+        "icon": "delete.jpg",
+        "author": "diabellstar",
+        "level": 2,
+        "history": {
+            "v2.2": "优化执行周期输入，需要MoviePilot v2.2.1+",
+            "v2.1.1": "修复兼容MoviePilot V2 版本",
+            "v2.0": "兼容MoviePilot V2 版本"
+        }
+    },
+    "TorrentPauserBt": {
+        "name": "自动停种-BT",
+        "description": "自动停止下载器中的下载任务。",
+        "labels": "做种",
+        "version": "1.0",
+        "icon": "delete.jpg",
+        "author": "diabellstar",
+        "level": 2,
+        "history": {
+            "v2.2": "优化执行周期输入，需要MoviePilot v2.2.1+",
+            "v2.1.1": "修复兼容MoviePilot V2 版本",
+            "v2.0": "兼容MoviePilot V2 版本"
+        }
+    },
+    "TorrentPauserBangumi": {
+        "name": "自动停种-Bangumi",
+        "description": "自动停止下载器中的下载任务。",
+        "labels": "做种",
+        "version": "1.0",
+        "icon": "delete.jpg",
+        "author": "diabellstar",
+        "level": 2,
+        "history": {
+            "v2.2": "优化执行周期输入，需要MoviePilot v2.2.1+",
+            "v2.1.1": "修复兼容MoviePilot V2 版本",
+            "v2.0": "兼容MoviePilot V2 版本"
+        }
     }
+
 }
