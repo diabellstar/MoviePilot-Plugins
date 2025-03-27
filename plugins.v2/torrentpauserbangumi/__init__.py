@@ -18,7 +18,7 @@ from app.utils.string import StringUtils
 lock = threading.Lock()
 
 
-class TorrentPauserBT(_PluginBase):
+class TorrentPauserBangumi(_PluginBase):
     # 插件名称
     plugin_name = "自动停种-Bangumi"
     # 插件描述
