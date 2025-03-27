@@ -26,7 +26,7 @@ class TorrentPauserBt(_PluginBase):
     # 插件图标
     plugin_icon = "delete.jpg"
     # 插件版本
-    plugin_version = "1.0"
+    plugin_version = "2.0"
     # 插件作者
     plugin_author = "diabellstar"
     # 作者主页
