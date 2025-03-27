@@ -132,7 +132,7 @@
         "name": "自动停种-Bangumi",
         "description": "自动停止下载器中的下载任务。",
         "labels": "做种",
-        "version": "1.0",
+        "version": "1.1",
         "icon": "delete.jpg",
         "author": "diabellstar",
         "level": 2,
